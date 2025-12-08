@@ -3266,10 +3266,8 @@
 			"lvl_" + skill,
 			"misc_" + skill
 	));
-	const all_skills_lvl_misc_changes = all_skills_lvl_misc.map(skill => `change:${skill}`).join(' ');
 	const stats_lower = ["intelligence","reflex","dexterity","technique","cool","willpower","luck","movement","body","empathy"];
 	const stats_changes = stats_lower.map(stat => `change:${stat.toLowerCase()}`).join(' ');
-	// on(`${all_skills_lvl_misc_changes} ${stats_changes} sheet:opened`, function() {
 	on(`${stats_changes} sheet:opened`, function() {
 		getAttrs([...stats_lower.map(stat => stat.toLowerCase()), ...all_skills_lvl_misc], function(values) {
 			const output = {};
@@ -3291,14 +3289,15 @@
 				all_skills[skill], // Stat attribute
 				`lvl_${skill}`,
 				`misc_${skill}`
-				// `total_${skill}` // possibly not needed
 			];
 			getAttrs(skill_attributes, function(values) {
 				const base = parseInt(values["lvl_" + skill]) || 0;
 				const misc = parseInt(values["misc_" + skill]) || 0;
 				const stat = parseInt(values[all_skills[skill]]) || 0;
 				const total = base + misc + stat;
-				setAttrs({`total_${skill}`: total});
+				const skill_set_attrs = {};
+				skill_set_attrs["total_" + skill] = total;
+				setAttrs(skill_set_attrs);
 			});
 		});
 	});
