@@ -3285,7 +3285,7 @@
 		});
 	});
 
-	Object.keys(all_skills).forEach(skill => {
+	Object.keys(all_skills).forEach(function (skill) {
 		on(`change:LVL_${skill} change:Misc_${skill}`, function() {
 			const skill_attributes = [
 				all_skills[skill], // Stat attribute
