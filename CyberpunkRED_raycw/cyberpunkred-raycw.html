@@ -1610,11 +1610,7 @@
 			<div class="settings-row">
 				<h3>CHARACTER SHEET OPTIONS</h3>
 				<div class="nav">
-					<div class="options"><a class="options" href="#popup_reset_confirm">RESET WITH CHECK</a></div>
-					<div id="popup_reset_confirm">
-						<button class="options" type="action" name="act_resetbase" >YES, RESET BASE SKILLS</button>
-					</div>
-					<div></div>
+					<div><button class="options" type="action" name="act_resetbase" >RESET BASE SKILLS</button></div>
 					<div><button class="options" type="action" name="act_newcharacter" >TOGGLE STAT/SKILLPOINT TRACKER</button></div>
 				</div>
 				<div class="settings-option">
@@ -3358,26 +3354,18 @@
 	                    ,"LVL_Streetslang","LVL_YourHome","LVL_Brawling","LVL_Evasion","LVL_Conversation"
 	                    ,"LVL_HumanPerception","LVL_Persuasion","LVL_FirstAid"];
 
-
 	on("clicked:resetbase", function() {
 		getAttrs([], function(v) {
-
+			const reset_skills = {};
+			reset_skills["LVL_LanguageA"] = 4;
 			for (var skill of allskills) {
-
 				if (basicskills.includes(skill)) {
-					setAttrs({
-						[skill] : 2
-					});
+					reset_skills[skill] = 2;
 				} else {
-					setAttrs({
-						[skill] : 0
-					});
+					reset_skills[skill] = 0;
 				}		
 			}
-
-			setAttrs({
-				"LVL_LanguageA" : 4
-			});
+			setAttrs(reset_skills);
 		});
 	});
 
@@ -3385,31 +3373,21 @@
 
 	allskills.forEach(function(skill) {
 		on(`change:${skill}`, function() {
-
 			var total = 0;
-
 			getAttrs(easyskills, function(values) {
-
 				for (var key of Object.keys(values)) {
 					total = total + parseInt(values[key])||0;
 				}
-
 			});
-
 			getAttrs(hardskills, function(values) {
-
 				for (var key of Object.keys(values)) {
 					total = total + 2 * parseInt(values[key])||0;
 				}
-
 				setAttrs({
 					"skillpoints" : 90 - total
 				});
 			});
-
-
 		});
-
 	});
 
 	const toggleList = [
