@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Nunito|Source+Code+Pro&display=swap');
 
 /* Chrome, Safari, Edge, Opera */
-.ui-dialog .tab-content .charsheet input::-webkit-outer-spin-button,
-.ui-dialog .tab-content .charsheet input::-webkit-inner-spin-button {
+.charsheet input::-webkit-outer-spin-button,
+.charsheet input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-.ui-dialog .tab-content .charsheet input:focus,
-.ui-dialog .tab-content .charsheet textarea:focus,
-.ui-dialog .tab-content .charsheet button:focus {
+.charsheet input:focus,
+.charsheet textarea:focus,
+.charsheet button:focus {
   outline: none; 
 }
 
 /* Firefox */
-.ui-dialog .tab-content .charsheet input[type=number] {
+.charsheet input[type=number] {
   -moz-appearance: textfield;
 }
 
@@ -65,13 +65,13 @@
   position: relative;
 }
 
-.ui-dialog .tab-content .charsheet *,
-.ui-dialog .tab-content .charsheet *:before,
-.ui-dialog .tab-content .charsheet *:after {
+.charsheet *,
+.charsheet *:before,
+.charsheet *:after {
   box-sizing: border-box;
 }
 
-.ui-dialog .tab-content .charsheet select {
+.charsheet select {
   border: none;
   background: none;
   width: 100%;
@@ -1534,11 +1534,11 @@ input.sheet-toggle:not([value="1"]) ~ button.sheet-toggle > span.sheet-checked {
 
 /*----------------- BUTTONS ------------------*/
 
-.ui-dialog .tab-content .charsheet button[type="roll"].sheet-txt-btn:before{
+.charsheet button[type="roll"].sheet-txt-btn:before{
   content: ' ';
 }
 
-.ui-dialog .tab-content .charsheet button[type="roll"].sheet-txt-btn{
+.charsheet button[type="roll"].sheet-txt-btn{
   background: none;
   border: none;
   margin-left: 0px;
@@ -1549,7 +1549,7 @@ input.sheet-toggle:not([value="1"]) ~ button.sheet-toggle > span.sheet-checked {
   box-shadow: none;
 }
 
-.ui-dialog .tab-content .charsheet button[type="roll"].sheet-aimed-shot-icon{
+.charsheet button[type="roll"].sheet-aimed-shot-icon{
   font-weight: bold;
   color: #CD272C;
   font-size: 1.5rem;
@@ -1562,12 +1562,12 @@ input.sheet-toggle:not([value="1"]) ~ button.sheet-toggle > span.sheet-checked {
   font-weight:bold;
 }
 
-.ui-dialog .tab-content .charsheet button[type="roll"].sheet-txt-btn:hover{
+.charsheet button[type="roll"].sheet-txt-btn:hover{
  background: none;
  text-decoration: underline;
 }
 
-.ui-dialog .tab-content .charsheet button[type="roll"].sheet-txt-btn:active{
+.charsheet button[type="roll"].sheet-txt-btn:active{
  background: none;
  border: none;
  box-shadow: none;
