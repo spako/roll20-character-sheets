@@ -1,4 +1,4 @@
-<div class='main'>
+<div class="main">
 
 
 
@@ -15,11 +15,11 @@
 		<div class="mook-mode"><button type="roll" name="roll_initiative" value="&{template:initiative} {{name=Initiative}} {{roll=[[d10+@{Reflex}+@{initiative_modifier} &{tracker}]]}}">ROLL INITIATIVE</button></div>
 		<div><button type="action" name="act_settings" >SETTINGS</button></div>
 	</div>
-	<input type='hidden' class='sheet-tabstoggle' name='attr_sheetTab'  value='character'  />
-	<div class='character'>
+	<input type="hidden" class="sheet-tabstoggle" name="attr_sheetTab"  value="character"  />
+	<div class="character">
 
 
-		<input type='hidden' class='sheet-shownewcharacter' name='attr_shownewcharacter' value=1  />
+		<input type="hidden" class="sheet-shownewcharacter" name="attr_shownewcharacter" value=1  />
 		<div class="profile section"> 
 
 			<div class="new-char">
@@ -209,46 +209,46 @@
 			<input type="hidden" name="attr_statpoints" />
 		</div>
 
-		<div class='stats section'>
-			<div class='statbox'>
+		<div class="stats section">
+			<div class="statbox">
 				<div class="h2">INT</div>
 				<div><input type="number" name="attr_Intelligence" /></div>
 			</div>
-			<div class='statbox'>
+			<div class="statbox">
 				<div class="h2">REF</div>
-				<div class='outof'><input type="number" name="attr_Reflex" /><div>of</div><input type="number" name="attr_Reflex_max" /></div>
+				<div class="outof"><input type="number" name="attr_Reflex" /><div>of</div><input type="number" name="attr_Reflex_max" /></div>
 			</div>
-			<div class='statbox'>
+			<div class="statbox">
 				<div class="h2">DEX</div>
-				<div class='outof'><input type="number" name="attr_Dexterity" /><div>of</div><input type="number" name="attr_Dexterity_max" /></div>
+				<div class="outof"><input type="number" name="attr_Dexterity" /><div>of</div><input type="number" name="attr_Dexterity_max" /></div>
 			</div>
-			<div class='statbox'>
+			<div class="statbox">
 				<div class="h2">TECH</div>
 				<div><input type="number" name="attr_Technique" /></div>
 			</div>
-			<div class='statbox'>
+			<div class="statbox">
 				<div class="h2">COOL</div>
 				<div><input type="number" name="attr_Cool" /></div>
 			</div>
-			<div class='statbox'>
+			<div class="statbox">
 				<div class="h2">WILL</div>
 				<div><input type="number" name="attr_Willpower" /></div>
 			</div >
-			<div class='statbox'>
+			<div class="statbox">
 				<div class="h2">LUCK</div>
-				<div class='outof'><input type="number" name="attr_Luck" /><div>of</div><input type="number" name="attr_Luck_max" /></div>
+				<div class="outof"><input type="number" name="attr_Luck" /><div>of</div><input type="number" name="attr_Luck_max" /></div>
 			</div>
-			<div class='statbox'>
+			<div class="statbox">
 				<div class="h2">MOVE</div>
-				<div class='outof'><input type="number" name="attr_Movement" /><div>of</div><input type="number" name="attr_Movement_max" /></div>
+				<div class="outof"><input type="number" name="attr_Movement" /><div>of</div><input type="number" name="attr_Movement_max" /></div>
 			</div>
-			<div class='statbox'>
+			<div class="statbox">
 				<div class="h2">BODY</div>
 				<div><input type="number" name="attr_Body" value=0 /></div>
 			</div>
-			<div class='statbox'>
+			<div class="statbox">
 				<div class="h2">EMP</div>
-				<div class='outof'><input type="number" name="attr_Empathy" /><div>of</div><input type="number" name="attr_Empathy_max" /></div>
+				<div class="outof"><input type="number" name="attr_Empathy" /><div>of</div><input type="number" name="attr_Empathy_max" /></div>
 			</div>
 		</div>
 
@@ -1048,7 +1048,7 @@
 	</div>
 
 
-	<div class='lifepath'>
+	<div class="lifepath">
 		<div class="progression section">
 			<div class="alias">
 				<h4>ALIAS</h4>
@@ -1170,230 +1170,230 @@
 		</div>
 	</div>
 
-	<div class='cyberware'>
-		<div class='diagram'>
-			<div class='cyberaudio cwtable'>
-				<div class='cyberware-header'>Cyberaudio Suite</div>
-				<div class='cyberware-checkbox'>
+	<div class="cyberware">
+		<div class="diagram">
+			<div class="cyberaudio cwtable">
+				<div class="cyberware-header">Cyberaudio Suite</div>
+				<div class="cyberware-checkbox">
 					<input type="hidden" class="toggle" name="attr_cbaudio_flag" />
 					<button type="action" name="act_cbaudio" class="toggle">
 						<span class="checked">✓</span>
 					</button>
 				</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_cbaudio_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_cbaudio_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_cbaudio_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_cbaudio_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_cbaudio_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_cbaudio_option3_notes"></div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_cbaudio_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_cbaudio_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_cbaudio_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_cbaudio_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_cbaudio_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_cbaudio_option3_notes"></div>
 			</div>
-			<div class='righteye cwtable'>
-				<div class='cyberware-header'>Right Cybereye</div>
-				<div class='cyberware-checkbox'>
+			<div class="righteye cwtable">
+				<div class="cyberware-header">Right Cybereye</div>
+				<div class="cyberware-checkbox">
 					<input type="hidden" class="toggle" name="attr_righteye_flag" />
 					<button type="action" name="act_righteye" class="toggle">
 						<span class="checked">✓</span>
 					</button>
 				</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_righteye_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_righteye_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_righteye_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_righteye_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_righteye_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_righteye_option3_notes"></div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_righteye_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_righteye_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_righteye_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_righteye_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_righteye_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_righteye_option3_notes"></div>
 			</div>
-			<div class='lefteye cwtable'>
-				<div class='cyberware-header'>Left Cybereye</div>
-				<div class='cyberware-checkbox'>
+			<div class="lefteye cwtable">
+				<div class="cyberware-header">Left Cybereye</div>
+				<div class="cyberware-checkbox">
 					<input type="hidden" class="toggle" name="attr_lefteye_flag" />
 					<button type="action" name="act_lefteye" class="toggle">
 						<span class="checked">✓</span>
 					</button>
 				</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_lefteye_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_lefteye_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_lefteye_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_lefteye_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_lefteye_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_lefteye_option3_notes"></div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_lefteye_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_lefteye_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_lefteye_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_lefteye_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_lefteye_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_lefteye_option3_notes"></div>
 			</div>
-			<div class='rightarm cwtable'>
-				<div class='cyberware-header'>Right Cyberarm</div>
-				<div class='cyberware-checkbox'>
+			<div class="rightarm cwtable">
+				<div class="cyberware-header">Right Cyberarm</div>
+				<div class="cyberware-checkbox">
 					<input type="hidden" class="toggle" name="attr_rightarm_flag" />
 					<button type="action" name="act_rightarm" class="toggle">
 						<span class="checked">✓</span>
 					</button>
 				</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_rightarm_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_rightarm_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_rightarm_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_rightarm_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_rightarm_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_rightarm_option3_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_rightarm_option4" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_rightarm_option4_notes"></div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_rightarm_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_rightarm_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_rightarm_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_rightarm_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_rightarm_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_rightarm_option3_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_rightarm_option4" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_rightarm_option4_notes"></div>
 			</div>
-			<div class='leftarm cwtable'>
-				<div class='cyberware-header'>Left Cyberarm</div>
-				<div class='cyberware-checkbox'>
+			<div class="leftarm cwtable">
+				<div class="cyberware-header">Left Cyberarm</div>
+				<div class="cyberware-checkbox">
 					<input type="hidden" class="toggle" name="attr_leftarm_flag" />
 					<button type="action" name="act_leftarm" class="toggle">
 						<span class="checked">✓</span>
 					</button>
 				</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_leftarm_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_leftarm_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_leftarm_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_leftarm_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_leftarm_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_leftarm_option3_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_leftarm_option4" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_leftarm_option4_notes"></div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_leftarm_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_leftarm_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_leftarm_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_leftarm_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_leftarm_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_leftarm_option3_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_leftarm_option4" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_leftarm_option4_notes"></div>
 			</div>
-			<div class='neurallink cwtable'>
-				<div class='cyberware-header'>Neural Link</div>
-				<div class='cyberware-checkbox'>
+			<div class="neurallink cwtable">
+				<div class="cyberware-header">Neural Link</div>
+				<div class="cyberware-checkbox">
 					<input type="hidden" class="toggle" name="attr_neurallink_flag" />
 					<button type="action" name="act_neurallink" class="toggle">
 						<span class="checked">✓</span>
 					</button>
 				</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_neurallink_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_neurallink_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_neurallink_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_neurallink_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_neurallink_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_neurallink_option3_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_neurallink_option4" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_neurallink_option4_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_neurallink_option5" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_neurallink_option5_notes"></div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_neurallink_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_neurallink_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_neurallink_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_neurallink_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_neurallink_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_neurallink_option3_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_neurallink_option4" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_neurallink_option4_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_neurallink_option5" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_neurallink_option5_notes"></div>
 			</div>
-			<div class='rightleg cwtable'>
-				<div class='cyberware-header'>Right Cyberleg</div>
-				<div class='cyberware-checkbox'>
+			<div class="rightleg cwtable">
+				<div class="cyberware-header">Right Cyberleg</div>
+				<div class="cyberware-checkbox">
 					<input type="hidden" class="toggle" name="attr_rightleg_flag" />
 					<button type="action" name="act_rightleg" class="toggle">
 						<span class="checked">✓</span>
 					</button>
 				</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_rightleg_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_rightleg_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_rightleg_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_rightleg_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_rightleg_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_rightleg_option3_notes"></div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_rightleg_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_rightleg_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_rightleg_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_rightleg_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_rightleg_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_rightleg_option3_notes"></div>
 			</div>
-			<div class='leftleg cwtable'>
-				<div class='cyberware-header'>Left Cyberleg</div>
-				<div class='cyberware-checkbox'>
+			<div class="leftleg cwtable">
+				<div class="cyberware-header">Left Cyberleg</div>
+				<div class="cyberware-checkbox">
 					<input type="hidden" class="toggle" name="attr_leftleg_flag" />
 					<button type="action" name="act_leftleg" class="toggle">
 						<span class="checked">✓</span>
 					</button>
 				</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_leftleg_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_leftleg_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_leftleg_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_leftleg_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_leftleg_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_leftleg_option3_notes"></div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_leftleg_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_leftleg_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_leftleg_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_leftleg_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_leftleg_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_leftleg_option3_notes"></div>
 			</div>
 		</div>
-		<div class='cyberware-gear'>
-			<div class='cwtable'>
-				<div class='cyberware-header'>Internal Cyberware</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_internal_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_internal_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_internal_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_internal_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_internal_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_internal_option3_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_internal_option4" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_internal_option4_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_internal_option5" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_internal_option5_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_internal_option6" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_internal_option6_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_internal_option7" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_internal_option7_notes"></div>
+		<div class="cyberware-gear">
+			<div class="cwtable">
+				<div class="cyberware-header">Internal Cyberware</div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_internal_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_internal_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_internal_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_internal_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_internal_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_internal_option3_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_internal_option4" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_internal_option4_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_internal_option5" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_internal_option5_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_internal_option6" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_internal_option6_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_internal_option7" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_internal_option7_notes"></div>
 			</div>
-			<div class='cwtable'>
-				<div class='cyberware-header'>External Cyberware</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_external_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_external_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_external_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_external_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_external_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_external_option3_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_external_option4" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_external_option4_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_external_option5" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_external_option5_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_external_option6" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_external_option6_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_external_option7" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_external_option7_notes"></div>
+			<div class="cwtable">
+				<div class="cyberware-header">External Cyberware</div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_external_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_external_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_external_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_external_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_external_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_external_option3_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_external_option4" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_external_option4_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_external_option5" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_external_option5_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_external_option6" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_external_option6_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_external_option7" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_external_option7_notes"></div>
 			</div>
-			<div class='cwtable'>
-				<div class='cyberware-header'>Fashionware</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_fashion_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_fashion_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_fashion_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_fashion_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_fashion_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_fashion_option3_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_fashion_option4" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_fashion_option4_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_fashion_option5" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_fashion_option5_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_fashion_option6" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_fashion_option6_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_fashion_option7" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_fashion_option7_notes"></div>
+			<div class="cwtable">
+				<div class="cyberware-header">Fashionware</div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_fashion_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_fashion_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_fashion_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_fashion_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_fashion_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_fashion_option3_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_fashion_option4" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_fashion_option4_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_fashion_option5" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_fashion_option5_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_fashion_option6" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_fashion_option6_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_fashion_option7" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_fashion_option7_notes"></div>
 			</div>
-			<div class='cwtable'>
-				<div class='cyberware-header'>Borgware</div>
-				<div class='cyberware-header'>Data</div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_borg_option1" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_borg_option1_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_borg_option2" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_borg_option2_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_borg_option3" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_borg_option3_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_borg_option4" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_borg_option4_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_borg_option5" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_borg_option5_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_borg_option6" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_borg_option6_notes"></div>
-				<div class='cyberware-item'><input type=text spellcheck=false name="attr_borg_option7" placeholder="Type here..."></div>
-				<div class='cyberware-notes'><input type=text spellcheck=false name="attr_borg_option7_notes"></div>
+			<div class="cwtable">
+				<div class="cyberware-header">Borgware</div>
+				<div class="cyberware-header">Data</div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_borg_option1" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_borg_option1_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_borg_option2" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_borg_option2_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_borg_option3" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_borg_option3_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_borg_option4" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_borg_option4_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_borg_option5" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_borg_option5_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_borg_option6" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_borg_option6_notes"></div>
+				<div class="cyberware-item"><input type=text spellcheck=false name="attr_borg_option7" placeholder="Type here..."></div>
+				<div class="cyberware-notes"><input type=text spellcheck=false name="attr_borg_option7_notes"></div>
 			</div>
 		</div>
 	</div>
 
-	<div class='netrunning'>
+	<div class="netrunning">
 
-		<input type='hidden' name='attr_totalNetActions' value='6' />
+		<input type="hidden" name="attr_totalNetActions" value="6" />
 
 		<div class="interface">
 			<!-- <div class="title"><h1>interface.exe</h1></div> -->
 			<div class="title"><h1><button type="roll" value="&{template:roleability} {{critroll=[[@{Total_Interface}+10+1d10]]}} {{failroll=[[@{Total_Interface}+1-1d10]]}} {{rollname=Interface}}  {{roll=[[@{Total_Interface}+1d10]]}}">interface.exe</button></h1></div>
 			<div class="rank"><h6>rank</h6> <input type=number name="attr_rankInterface" value="0"></div>
-			<div class="netactions"><h3>total-net-actions: <span name='attr_totalNetActions'></span></h3></div>
+			<div class="netactions"><h3>total-net-actions: <span name="attr_totalNetActions"></span></h3></div>
 			<div class="speed"><h6>speed</h6> <input type="number" name="attr_netrunSpeed"></div>
 			<div class="general"><h6>general-slots</h6>
 				<div><input type=text spellcheck=false name="attr_slots_all"></div>
@@ -1479,7 +1479,7 @@
 			</div>
 		</div>
 
-		<input type='hidden' class='sheet-netruntoggle' name='attr_netrunTab' value='nbi' />
+		<input type="hidden" class="sheet-netruntoggle" name="attr_netrunTab" value="nbi" />
 
 		<div class="nbiprogram">
 			<div class="flex-table">
@@ -1528,8 +1528,8 @@
 						<span name="attr_programeffects"></span>
 						<textarea spellcheck=false name="attr_programeffects"></textarea>
 					</div>
-					<input type='hidden' name="attr_programability">
-					<input type='hidden' name="attr_programbonus" value="0">
+					<input type="hidden" name="attr_programability">
+					<input type="hidden" name="attr_programbonus" value="0">
 				</div>
 			</fieldset>
 
@@ -1548,7 +1548,7 @@
 
 			<fieldset class="repeating_anti">
 				<div class="flex-table">
-					<input type='hidden' name="attr_programresult" value="0">
+					<input type="hidden" name="attr_programresult" value="0">
 					<div class="bg-black-item anti-program-name">
 						<select name="attr_programname">
 							<option value="" disabled selected>load_program</option>
@@ -1605,7 +1605,7 @@
 
 			<fieldset class="repeating_blackice">
 				<div class="flex-table">
-					<input type='hidden' name="attr_biresult" value="0">
+					<input type="hidden" name="attr_biresult" value="0">
 					<div class="bg-black-item bi-name">
 						<select name="attr_biname">
 							<option value="" disabled selected>load_program</option>
@@ -1679,11 +1679,11 @@
 
 	</div>
 
-	<div class='journal'>
-		<div class='journaltitle'>
+	<div class="journal">
+		<div class="journaltitle">
 			<h2>NOTES</h2>
 		</div>
-		<div class='journaltext'>
+		<div class="journaltext">
 			<textarea spellcheck=false name="attr_Notes"></textarea>
 		</div>
 	</div>
