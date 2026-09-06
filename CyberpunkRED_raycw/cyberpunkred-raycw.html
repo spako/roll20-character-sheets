@@ -189,7 +189,7 @@
 				</div>
 				<div class="sheet-red-bg" style="padding-top: 11px;">
 					<span class="sheet-small">MAX</span>
-					<span class=big name="attr_hp_max"></span>
+					<span class="sheet-big" name="attr_hp_max"></span>
 				</div>
 			</div>
 
@@ -994,7 +994,7 @@
 					<div class="sheet-bg-black-2 sheet-bonus">Bonus</div>
 				</div>
 
-				<fieldset class="sheet-repeating_weapons">
+				<fieldset class="repeating_weapons">
 					<div class="sheet-flex-table">
 						<button type="roll" name="roll_weapon_dmg" style="display: none;" value="@{DMG}"></button>
 						<input type="hidden" name="attr_WeaponMod" value="@{Total_Melee}">
@@ -1110,24 +1110,24 @@
 			<div><h4>TRAGIC LOVE AFFAIRS</h4>
 				<textarea spellcheck=false name="attr_tragiclove"></textarea></input>
 			</div>
-			<div class=enemies>
-				<div class=title><h3>ENEMIES</h3></div>
-				<div class=header><h4>Who?</h4></div>
-				<div class=header><h4>What Caused It?</h4></div>
-				<div class=header><h4>What Can They Throw At You?</h4></div>
-				<div class=header><h4>What's Gonna Happen?</h4></div>
-				<div class=item><textarea spellcheck=false name="attr_enemy1"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemycause1"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemythreat1"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemeyend1"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemy2"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemycause2"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemythreat2"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemeyend2"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemy3"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemycause3"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemythreat3"></textarea></div>
-				<div class=item><textarea spellcheck=false name="attr_enemeyend3"></textarea></div>
+			<div class="sheet-enemies">
+				<div class="sheet-title"><h3>ENEMIES</h3></div>
+				<div class="sheet-header"><h4>Who?</h4></div>
+				<div class="sheet-header"><h4>What Caused It?</h4></div>
+				<div class="sheet-header"><h4>What Can They Throw At You?</h4></div>
+				<div class="sheet-header"><h4>What's Gonna Happen?</h4></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemy1"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemycause1"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemythreat1"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemeyend1"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemy2"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemycause2"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemythreat2"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemeyend2"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemy3"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemycause3"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemythreat3"></textarea></div>
+				<div class="sheet-item"><textarea spellcheck=false name="attr_enemeyend3"></textarea></div>
 			</div>
 		</div>
 		<div class="sheet-inventory sheet-section">
@@ -1142,7 +1142,7 @@
 				<li class="sheet-bg-black-2 sheet-gear-notes">Notes</li>
 			</ul>
 			
-			<fieldset class="sheet-repeating_gear">
+			<fieldset class="repeating_gear">
 				<ul class="sheet-flex-table">
 					<li class="sheet-bg-white sheet-gear-name"><input type=text spellcheck=false name="attr_gearname" placeholder="Type here..."></li>
 					<li class="sheet-bg-white sheet-gear-notes"><input type=text spellcheck=false name="attr_gearnotes" placeholder="Type here..."></li>
@@ -1492,7 +1492,7 @@
 				<div class="sheet-bg-black sheet-program-effect">effect</div>
 			</div>
 
-			<fieldset class="sheet-repeating_nbi">
+			<fieldset class="repeating_nbi">
 				<div class="sheet-flex-table">
 					<div class="sheet-bg-black-item sheet-program-name">
 						<select name="attr_programname">
@@ -1546,7 +1546,7 @@
 				<div class="sheet-bg-black sheet-anti-program-effect">effect</div>
 			</div>
 
-			<fieldset class="sheet-repeating_anti">
+			<fieldset class="repeating_anti">
 				<div class="sheet-flex-table">
 					<input type="hidden" name="attr_programresult" value="0">
 					<div class="sheet-bg-black-item sheet-anti-program-name">
@@ -1603,7 +1603,7 @@
 				<div class="sheet-bg-black sheet-bi-effect">effect</div>
 			</div>
 
-			<fieldset class="sheet-repeating_blackice">
+			<fieldset class="repeating_blackice">
 				<div class="sheet-flex-table">
 					<input type="hidden" name="attr_biresult" value="0">
 					<div class="sheet-bg-black-item sheet-bi-name">
@@ -1663,7 +1663,7 @@
 				<div class="sheet-bg-black sheet-hardware-data">data</div>
 			</div>
 
-			<fieldset class="sheet-repeating_hardware">
+			<fieldset class="repeating_hardware">
 				<div class="sheet-flex-table">
 					<div class="sheet-bg-black-item sheet-hardware-name">
 						<input type=text spellcheck=false name="attr_hardwarename" placeholder="type here...">
@@ -1932,7 +1932,7 @@
 				</div>
 			</div>
 			<div class="sheet-weapondetails">
-				<fieldset class="sheet-repeating_weapons">
+				<fieldset class="repeating_weapons">
 					<div class="sheet-flex-table">
 						<button type="roll" name="roll_weapon_dmg" style="display: none;" value="@{DMG}"></button>
 						<input type="hidden" name="attr_WeaponMod" value="@{Total_Melee}">
@@ -2696,13 +2696,13 @@
 
 	{{#Pistol}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div><div>7-12</div>
 		<div>13-25</div><div>26-50</div>
 		<div>51-100</div><div>101-200</div>
 		<div>201-400</div><div>401-800</div>
 
-		<div class=header>DV</div>
+		<div class="sheet-header">DV</div>
 		<div>13</div><div>15</div>
 		<div>20</div><div>25</div>
 		<div>30</div><div>30</div>
@@ -2712,13 +2712,13 @@
 
 	{{#SMG}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div><div>7-12</div>
 		<div>13-25</div><div>26-50</div>
 		<div>51-100</div><div>101-200</div>
 		<div>201-400</div><div>401-800</div>
 
-		<div class=header>DV</div>
+		<div class="sheet-header">DV</div>
 		<div>15</div><div>13</div>
 		<div>15</div><div>20</div>
 		<div>25</div><div>25</div>
@@ -2728,7 +2728,7 @@
 
 	{{#SMG (Autofire)}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div><div>7-12</div>
 		<div>13-25</div><div>26-50</div>
 		<div>51-100</div><div>101-200</div>
@@ -2744,13 +2744,13 @@
 
 	{{#Shotgun (Slug)}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div><div>7-12</div>
 		<div>13-25</div><div>26-50</div>
 		<div>51-100</div><div>101-200</div>
 		<div>201-400</div><div>401-800</div>
 
-		<div class=header>DV</div>
+		<div class="sheet-header">DV</div>
 		<div>13</div><div>15</div>
 		<div>20</div><div>25</div>
 		<div>30</div><div>35</div>
@@ -2760,13 +2760,13 @@
 
 	{{#Assault Rifle}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div><div>7-12</div>
 		<div>13-25</div><div>26-50</div>
 		<div>51-100</div><div>101-200</div>
 		<div>201-400</div><div>401-800</div>
 
-		<div class=header>DV</div>
+		<div class="sheet-header">DV</div>
 		<div>17</div><div>16</div>
 		<div>15</div><div>13</div>
 		<div>15</div><div>20</div>
@@ -2776,13 +2776,13 @@
 
 	{{#AR (Autofire)}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div><div>7-12</div>
 		<div>13-25</div><div>26-50</div>
 		<div>51-100</div><div>101-200</div>
 		<div>201-400</div><div>401-800</div>
 
-		<div class=header>DV</div>
+		<div class="sheet-header">DV</div>
 		<div>22</div><div>20</div>
 		<div>17</div><div>20</div>
 		<div>25</div><div>N/A</div>
@@ -2792,13 +2792,13 @@
 
 	{{#Sniper Rifle}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div><div>7-12</div>
 		<div>13-25</div><div>26-50</div>
 		<div>51-100</div><div>101-200</div>
 		<div>201-400</div><div>401-800</div>
 
-		<div class=header>DV</div>
+		<div class="sheet-header">DV</div>
 		<div>30</div><div>25</div>
 		<div>25</div><div>20</div>
 		<div>15</div><div>16</div>
@@ -2808,13 +2808,13 @@
 
 	{{#Bow/Crossbow}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div><div>7-12</div>
 		<div>13-25</div><div>26-50</div>
 		<div>51-100</div><div>101-200</div>
 		<div>201-400</div><div>401-800</div>
 
-		<div class=header>DV</div>
+		<div class="sheet-header">DV</div>
 		<div>15</div><div>13</div>
 		<div>15</div><div>17</div>
 		<div>20</div><div>22</div>
@@ -2824,13 +2824,13 @@
 
 	{{#Grenade Launcher}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div><div>7-12</div>
 		<div>13-25</div><div>26-50</div>
 		<div>51-100</div><div>101-200</div>
 		<div>201-400</div><div>401-800</div>
 
-		<div class=header>DV</div>
+		<div class="sheet-header">DV</div>
 		<div>16</div><div>15</div>
 		<div>15</div><div>17</div>
 		<div>20</div><div>22</div>
@@ -2840,13 +2840,13 @@
 
 	{{#Rocket Launcher}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div><div>7-12</div>
 		<div>13-25</div><div>26-50</div>
 		<div>51-100</div><div>101-200</div>
 		<div>201-400</div><div>401-800</div>
 
-		<div class=header>DV</div>
+		<div class="sheet-header">DV</div>
 		<div>17</div><div>16</div>
 		<div>15</div><div>15</div>
 		<div>20</div><div>20</div>
@@ -2856,7 +2856,7 @@
 
 	{{#Throw (Athletics)}}
 	<div class="sheet-rolltemplate-table">
-		<div class=header>Range (m/yds)</div>
+		<div class="sheet-header">Range (m/yds)</div>
 		<div>0-6</div>
 		<div>7-12</div>
 		<div>13-25</div>
@@ -2866,7 +2866,7 @@
 		<div>201-400</div>
 		<div>401-800</div>
 
-		<div class=header>DV</div>
+		<div class="sheet-header">DV</div>
 		<div>16</div>
 		<div>15</div>
 		<div>15</div>
