@@ -309,10 +309,7 @@
 
 /*----------------- CHARACTER SHEET ------------------*/
 
-/*
-Uncomment this when upgrading to CSE
 .ui-dialog .tab-content .charsheet {
-*/
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -2167,7 +2164,4 @@ td.sheet-subskill-header {
 }
 
 /* Close .ui-dialog .tab-content .charsheet { */
-/*
-Uncomment this when upgrading to CSE
 }
-*/
